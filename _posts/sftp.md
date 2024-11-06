@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      sftp
+subtitle:   linux sftp搭建 配置 文件保存
+date:       2024-11-06
+author:     BY
+header-img: img/post-bg-ios9-web.jpg
+catalog: 	 true
+tags:
+    - sftp
+    - 文件
+---
+
+
 ### 1.查看服务器资源
 
 df -h 规划文件文件目录
