@@ -67,7 +67,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: Ov23liioxVzsZDS411SN                            #生成的clientID
   clientSecret: 4c695f25a5d5ada29517d1f22cea75ea2c01b689    #生成的clientSecret
-  repo: duolijava.github.io    #仓库名称
+  repo: https://duolijava.github.io    #仓库名称
   owner: duoliJAVA    #github用户名
   admin: duoliJAVA
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
