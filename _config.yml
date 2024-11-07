@@ -60,7 +60,8 @@ kramdown:
 # disqus:
 #   enable: true
 #   username: duolijava-github-io
-
+github:
+  username: duoliJava 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
