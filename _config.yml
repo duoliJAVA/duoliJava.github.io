@@ -73,7 +73,7 @@ gitalk:
   perPage: 10  # 每页显示的评论数量
   language: "zh-CN"  # 可以设置成中文
   authorization: true  # 启用 GitHub 授权
-  callback: "https://duoliJava.github.io/callback"
+  callback: "https://duoliJava.github.io"
 
 
 # 统计
