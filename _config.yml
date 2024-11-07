@@ -57,19 +57,19 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus:
-  enable: true
-  username: duolijava-github-io
+# disqus:
+#   enable: true
+#   username: duolijava-github-io
 
 # Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: qiubaiying.github.io    #仓库名称
-#   owner: qiubaiying    #github用户名
-#   admin: qiubaiying
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: Ov23liioxVzsZDS411SN                            #生成的clientID
+  clientSecret: 4c695f25a5d5ada29517d1f22cea75ea2c01b689    #生成的clientSecret
+  repo: duolijava.github.io    #仓库名称
+  owner: duoliJAVA    #github用户名
+  admin: duoliJAVA
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -99,7 +99,7 @@ service-worker: true
 
 
 # Friends
-friends: [
+# friends: [
     # {
     #     title: "WY",
     #     href: "http://zhengwuyang.com"
@@ -113,4 +113,4 @@ friends: [
     #     title: "Apple Developer",
     #     href: "https://developer.apple.com/"
     # }
-]
+# ]
