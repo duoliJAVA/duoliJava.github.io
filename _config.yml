@@ -67,14 +67,14 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: Ov23liioxVzsZDS411SN                            #生成的clientID
   clientSecret: 4c695f25a5d5ada29517d1f22cea75ea2c01b689    #生成的clientSecret
-  repo: https://duoliJava.github.io/    #仓库名称
+  repo: duoliJava.github.io  #仓库名称
   owner: duoliJAVA    #github用户名
   admin: duoliJAVA
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
   perPage: 10  # 每页显示的评论数量
   language: "zh-CN"  # 可以设置成中文
   authorization: true  # 启用 GitHub 授权
-  callback: "https://duoliJava.github.io/"
+  callback: "duoliJava.github.io"
 
 
 # 统计

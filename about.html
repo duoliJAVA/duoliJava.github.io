@@ -111,8 +111,9 @@ header-img: "img/post-bg-rwd.jpg"
     admin: '{{ site.gitalk.admin | jsonify }}',
     perPage: '{{ site.gitalk.perPage }}',
     language: '{{ site.gitalk.language }}',
-    id: location.pathname,
+    id: location.pathname.substr(0, 50),
     issueTerm: 'pathname',
+    distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
     });
 
     gitalk.render('gitalk-container');
