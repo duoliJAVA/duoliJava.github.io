@@ -94,7 +94,7 @@ header-img: "img/post-bg-rwd.jpg"
     _render();
 </script>
 
-
+<div>
 <!-- Gitalk 评论 start  -->
 {% if site.gitalk.enable %}
 <!-- Gitalk link  -->
@@ -110,13 +110,14 @@ header-img: "img/post-bg-rwd.jpg"
     owner: '{{site.gitalk.github_id}}',
     admin: '{{ site.gitalk.github_id | jsonify }}',
     perPage: 10,
-    id: location.pathname.substr(0, 50),
+    id:  md5(location.href.match('/(?<=posts/)(.*)(?=/)/')[1]),
     language: 'en'
     });
 
     gitalk.render('gitalk-container');
 </script> 
 {% endif %}
+</div>
 <!-- Gitalk end -->
 
  <!-- disqus 评论框 start  -->
