@@ -107,12 +107,11 @@ header-img: "img/post-bg-rwd.jpg"
     clientID: '{{site.gitalk.clientID}}',
     clientSecret: '{{site.gitalk.clientSecret}}',
     repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: '{{ site.gitalk.admin | jsonify }}',
-    perPage: '{{ site.gitalk.perPage }}',
-    language: '{{ site.gitalk.language }}',
+    owner: '{{site.gitalk.github_id}}',
+    admin: '{{ site.gitalk.github_id | jsonify }}',
+    perPage: 10,
     id: location.pathname.substr(0, 50),
-    distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
+    language: 'en'
     });
 
     gitalk.render('gitalk-container');
@@ -126,7 +125,7 @@ header-img: "img/post-bg-rwd.jpg"
 <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
     </div>
-</div>
+</div>-->
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
@@ -141,7 +140,8 @@ header-img: "img/post-bg-rwd.jpg"
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script> -->
-<!-- disqus 公共JS代码 end -->
-{% endif %} -->
+</script> 
+
+{% endif %}
+-->
 
